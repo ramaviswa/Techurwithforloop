@@ -3,3 +3,7 @@ resource "azurerm_resource_group" "rg" {
     name = each.value.rgname
     location = var.location 
 }
+
+output "resourcegroupoutput" {
+    value = azurerm_resource_group.rg  
+}

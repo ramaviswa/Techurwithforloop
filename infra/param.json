@@ -10,5 +10,24 @@
             "rgname":"techurrg5"
         }
     },
-    "techurlocation":"Australia Central"
+    "techurlocation":"Australia Central",
+    "techurvnet" : {
+        "vnet1" : {
+            "vnetname" : "techurvnet1",
+            "rgkey": "rg3",
+            "address": ["10.1.0.0/16"]
+        },
+        "vnet2" : {
+            "vnetname" : "techurvnet2",
+            "rgkey": "rg4",
+            "address" : ["10.2.0.0/16"]
+        },
+        "vnet3" : {
+            "vnetname" : "techurvnet3" ,
+            "rgkey": "rg5",
+            "address" : ["10.3.0.0/16"]
+        }
+
+    }
+
 }
