@@ -27,8 +27,6 @@ module "techurrg" {
 module "techurvnet" {
   source = "./resources/vnet"
   virtualnetwork = var.techurvnet
-  resourcegroup = var.techurrg
+  resourcegroup = module.techurrg.resourcegroupoutput
   location = var.techurlocation
-  address = var.techuraddress
-
 }

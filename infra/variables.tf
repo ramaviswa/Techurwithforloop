@@ -3,4 +3,3 @@ variable "techurlocation"{
     default = "Central US"
 }
 variable "techurvnet" {}
-variable "techuraddress" {}
