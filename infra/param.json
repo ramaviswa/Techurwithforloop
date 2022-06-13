@@ -38,10 +38,48 @@
             "city" : "Gurgaum",
             "mail_nickname" : "techuruser11",
             "password" : "Viswa@333"
-    }        
+        },
+        "user12" : { 
+            "display_name" : "techuruser12",
+            "user_principal_name" : "techuruser12",
+            "employee_type" : "Contractor",
+            "city" : "Ranchi",
+            "mail_nickname" : "techuruser12",
+            "password" : "Viswa@333"
+        },
+        "uer13" : {
+            "display_name" : "techuruser13",
+            "user_display_name" : "techuruser13",
+            "employee_type" : "Employee",
+            "city" : "vizag",
+            "mail_nickname" : "techuruser13",
+            "password" : "Viswa@333"       
+        },
+        "user14" : {
+            "display_name" : "techuruser14",
+            "user_display_name" : "techuruser14",
+            "employee_type" : "Employee",
+            "city" : "Vijayawada",
+            "mail_nickname" : "techuruser14",
+            "password" : "Viswa@333"
+
+    
+        },
+        "user15" : {
+            "display_name" : "techuruser15",
+            "user_display_name" : "techuruser15",
+            "employee_name" : "Contractor",
+            "city" : "Warangal",
+            "mail_nickname" : "techuruser15",
+            "password" : "Viswa@333"
+        }
+    
+    
+    
+    }      
     
 
-    }
+    
 
     
 
