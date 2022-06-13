@@ -13,6 +13,7 @@ terraform {
   }
 }
 
+
 ##The below lines for features details for azurerm
 provider "azurerm" {
   features {   
@@ -29,4 +30,10 @@ module "techurvnet" {
   virtualnetwork = var.techurvnet
   resourcegroup = module.techurrg.resourcegroupoutput
   location = var.techurlocation
+}
+
+module "azusers" {
+  source = "./resources/azureusers"
+  userslist = var.techuruserslist
+
 }

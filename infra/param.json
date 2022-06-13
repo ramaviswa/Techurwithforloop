@@ -28,6 +28,23 @@
             "address" : ["10.3.0.0/16"]
         }
 
+    },
+
+    "techuruserslist" : {
+        "user11" : {
+            "display_name" : "techuruser11",
+            "user_principal_name" : "techuruser11",
+            "employee_type" : "employee",
+            "city" : "Gurgaum",
+            "mail_nickname" : "techuruser11",
+            "password" : "Viswa@333"
+    }        
+    
+
     }
 
+    
+
 }
+
+

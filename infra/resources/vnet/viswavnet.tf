@@ -4,4 +4,4 @@ resource "azurerm_virtual_network" "viswavnet" {
     resource_group_name = var.resourcegroup[each.value.rgkey].name
     location = var.location
     address_space = each.value.address
-}
+} 
