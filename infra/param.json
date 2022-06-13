@@ -76,13 +76,108 @@
     
     
     
-    }      
-    
+    } ,
+    "techurrole" : {
+       "role1" : { 
+        "definition_name" : "owner", 
+        "rgkey" : "rg3",
+        "userkey" : "user11"
+        },
 
-    
+        "role2" : {
+            "definition_name" : "reader",
+            "rgkey" : "rg4",
+            "userkey" :"user11"
+        },
 
-    
+        "role3" : {
+            "definition_name" : "contributor",
+            "rgkey" : "rg5",
+            "userkey" : "user11"
+        },
 
+        "role4" : {
+
+            "definition_name" : "reader",
+            "rgkey" : "rg3",
+            "userkey" : "user12"
+        },
+
+        "role5" : {
+            "definition_name" : "owner",
+            "rgkey" : "rg4",
+            "userkey" : "user12"
+        },
+
+        "role6" :{
+            "definition_name" : "reader",
+            "rgkey" : "rg5",
+            "userkey" : "user12"
+        },
+
+        "role7" : {
+            "definition_name" : "contributor",
+            "rgkey" : "rg3",
+            "userkey" : "user13"
+        }, 
+
+        "role8" : {
+            "definition_name" : "User Access Administrator",
+            "rgkey" : "rg4",
+            "userkey" : "user13"
+
+        },
+
+        "role9" : {
+            "definition_name" : "owner",
+            "rgkey" : "rg5",
+            "userkey" : "user13"
+        },
+
+        "role10" : {
+            "definition_name" : "Key Vault Administrator",
+            "rgkey" : "rg3",
+            "userkey" : "user14"
+        },
+
+        "role11" : {
+            "definition_name" : "reader",
+            "rgkey" : "rg4",
+            "userkey" : "user14"
+        },
+
+        "role12" : {
+            "definition_name" : "Storage Blob Data Contributor",
+            "rgkey" : "rg5",
+            "userkey" : "user14"
+        },
+
+        "role13" : {
+            "definition_name" : "Storage Blob Data Contributor",
+            "rgkey" : "rg3",
+            "userkey" : "user15"
+        },
+
+        "role14" : {
+            "definition_name" : "Key Vault Administrator",
+            "rgkey" : "rg4",
+            "userkey" : "user15"
+        },
+
+        "role15" : {
+            "definition_name" : "Key Vault Administrator",
+            "rgkey" : "rg5",
+            "userkey" : "user15"
+        }
+    }
+              
 }
+
+
+    
+
+    
+
+
 
 

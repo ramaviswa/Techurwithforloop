@@ -21,3 +21,7 @@ resource "azuread_user" "userlist" {
   password = each.value.password
 }
 
+
+output "userlistoutput"{
+value = azuread_user.userlist
+}

@@ -4,3 +4,6 @@ variable "techurlocation"{
 }
 variable "techurvnet" {}
 variable "techuruserslist" {}
+variable "techurrole" {
+  
+}

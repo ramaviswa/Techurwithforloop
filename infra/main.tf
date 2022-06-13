@@ -37,3 +37,10 @@ module "azusers" {
   userslist = var.techuruserslist
 
 }
+
+module "roleassigntorg" {
+  source = "./resources/roleassignment"
+  role = var.techurrole
+  rg = module.techurrg.resourcegroupoutput
+  user = module.azusers.userlistoutput
+}
