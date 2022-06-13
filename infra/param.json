@@ -81,26 +81,26 @@
        "role1" : { 
         "role_definition_name" : "owner", 
         "rgkey" : "rg3",
-        "userkey" : "user11"
+        "usesrkey" : "user11"
         },
 
         "role2" : {
             "role_definition_name" : "reader",
             "rgkey" : "rg4",
-            "userkey" :"user11"
+            "userskey" :"user11"
         },
 
         "role3" : {
             "role_definition_name" : "contributor",
             "rgkey" : "rg5",
-            "userkey" : "user11"
+            "userskey" : "user11"
         },
 
         "role4" : {
 
             "role_definition_name" : "reader",
             "rgkey" : "rg3",
-            "userkey" : "user12"
+            "userskey" : "user12"
         },
 
         "role5" : {
@@ -118,56 +118,56 @@
         "role7" : {
             "role_definition_name" : "contributor",
             "rgkey" : "rg3",
-            "userkey" : "user13"
+            "userskey" : "user13"
         }, 
 
         "role8" : {
             "role_definition_name" : "User Access Administrator",
             "rgkey" : "rg4",
-            "userkey" : "user13"
+            "userskey" : "user13"
 
         },
 
         "role9" : {
             "role_definition_name" : "owner",
             "rgkey" : "rg5",
-            "userkey" : "user13"
+            "userskey" : "user13"
         },
 
         "role10" : {
             "role_definition_name" : "Key Vault Administrator",
             "rgkey" : "rg3",
-            "userkey" : "user14"
+            "userskey" : "user14"
         },
 
         "role11" : {
             "role_definition_name" : "reader",
             "rgkey" : "rg4",
-            "userkey" : "user14"
+            "userskey" : "user14"
         },
 
         "role12" : {
             "role_definition_name" : "Storage Blob Data Contributor",
             "rgkey" : "rg5",
-            "userkey" : "user14"
+            "userskey" : "user14"
         },
 
         "role13" : {
             "role_definition_name" : "Storage Blob Data Contributor",
             "rgkey" : "rg3",
-            "userkey" : "user15"
+            "userskey" : "user15"
         },
 
         "role14" : {
             "role_definition_name" : "Key Vault Administrator",
             "rgkey" : "rg4",
-            "userkey" : "user15"
+            "userskey" : "user15"
         },
 
         "role15" : {
             "role_definition_name" : "Key Vault Administrator",
             "rgkey" : "rg5",
-            "userkey" : "user15"
+            "userskey" : "user15"
         }
     }
               
