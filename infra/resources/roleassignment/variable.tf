@@ -1,5 +1,5 @@
 variable "rg" {}
 variable "users" {}
-variable "role" {
+variable "role_definition_name" {
   
 }

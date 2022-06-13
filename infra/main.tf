@@ -40,7 +40,7 @@ module "azusers" {
 
 module "roleassigntorg" {
   source = "./resources/roleassignment"
-  role = var.techurrole
+  role_definition_name = var.techurrole
   rg = module.techurrg.resourcegroupoutput
   users = module.azusers.userlistoutput
 }
