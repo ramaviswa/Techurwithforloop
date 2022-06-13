@@ -34,7 +34,7 @@
         "user11" : {
             "display_name" : "techuruser11",
             "user_principal_name" : "techuruser11",
-            "employee_type" : "employee",
+            "employee_type" : "Employee",
             "city" : "Gurgaum",
             "mail_nickname" : "techuruser11",
             "password" : "Viswa@333"
