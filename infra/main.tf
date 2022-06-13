@@ -42,5 +42,5 @@ module "roleassigntorg" {
   source = "./resources/roleassignment"
   role = var.techurrole
   rg = module.techurrg.resourcegroupoutput
-  user = module.azusers.userlistoutput
+  users = module.azusers.userlistoutput
 }

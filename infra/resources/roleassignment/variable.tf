@@ -1,6 +1,5 @@
-variable "rg" {
-  
-}
-variable "users" {
+variable "rg" {}
+variable "users" {}
+variable "role" {
   
 }
