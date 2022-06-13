@@ -68,7 +68,7 @@
         "user15" : {
             "display_name" : "techuruser15",
             "user_display_name" : "techuruser15",
-            "employee_name" : "Contractor",
+            "employee_type" : "Contractor",
             "city" : "Warangal",
             "mail_nickname" : "techuruser15",
             "password" : "Viswa@333"

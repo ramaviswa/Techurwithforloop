@@ -7,14 +7,14 @@ provider "azuread" {
 
 
 # Retrieve domain information
-data "azuread_domains" "techurtenatdomain" {
+data "azuread_domains" "techurtenetdomain" {
   only_initial = true
 }
 
 resource "azuread_user" "userlist" {
   for_each = var.userslist
   display_name = each.value.display_name
-  user_principal_name = "${each.value.user_principal_name}@${data.azuread_domains.techurtenatdomain.domains.0.domain_name}"
+  user_principal_name = "${each.value.user_principal_name}@${data.azuread_domains.techurtenetdomain.domains.0.domain_name}"
   employee_type = each.value.employee_type
   city = each.value.city
   mail_nickname = each.value.mail_nickname
