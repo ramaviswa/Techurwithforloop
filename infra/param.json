@@ -61,9 +61,7 @@
             "employee_type" : "Employee",
             "city" : "Vijayawada",
             "mail_nickname" : "techuruser14",
-            "password" : "Viswa@333"
-
-    
+            "password" : "Viswa@333"    
         },
         "user15" : {
             "display_name" : "techuruser15",
@@ -72,16 +70,13 @@
             "city" : "Warangal",
             "mail_nickname" : "techuruser15",
             "password" : "Viswa@333"
-        }
-    
-    
-    
+        }    
     } ,
     "techurrole" : {
        "role1" : { 
-        "role_definition_name" : "owner", 
-        "rgkey" : "rg3",
-        "usesrkey" : "user11"
+           "role_definition_name" : "owner", 
+            "rgkey" : "rg3",
+            "userskey" : "user11"
         },
 
         "role2" : {
@@ -106,13 +101,13 @@
         "role5" : {
             "role_definition_name" : "owner",
             "rgkey" : "rg4",
-            "userkey" : "user12"
+            "userskey" : "user12"
         },
 
         "role6" :{
             "role_definition_name" : "reader",
             "rgkey" : "rg5",
-            "userkey" : "user12"
+            "userskey" : "user12"
         },
 
         "role7" : {
